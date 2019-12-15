@@ -27,10 +27,59 @@
     background-color: #f6ab36;
 }
 
+.sm-nav-right-menu {
+    float: right;
+}
+
+.sm-nav-right-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.sm-nav-right-menu ul li {
+    display: inline-block;
+}
+
+.sm-nav-right-menu ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    padding: 18px 20px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.left-collaps {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    margin-top: 20px !important;
+    margin-right: 60px !important;
+}
+
+
+
+.left-collaps > li {
+    display: inline-block !important;
+    width: auto !important;
+    margin-left: -4px;
+}
+
+.left-collaps li a {
+    background: black !important;
+}
+
 @media screen and (max-width: 767px) {
     .sm-responsive-nav {
         display: block;
         margin: 20px 0;
+    }
+
+    .sm-nav-right-menu ul {
+        display: none;
     }
 
     .sm-responsive-nav ul li {
@@ -38,10 +87,15 @@
         width: 100%;
     }
 
+    
+
+
+
     .sm-responsive-nav ul li a {
         display: none;
         width: 100%;
         padding: 10px;
+        animation: nav-toggle .3s ease-in;
     }
 
     .sm-responsive-nav ul li.toggle-menu {
@@ -73,6 +127,10 @@
         background-color: #f6ab36;
         color: #fff;
         animation: none;
+    }
+
+    .left-collaps > li {
+        display: none;
     }
 
     @keyframes nav-toggle{

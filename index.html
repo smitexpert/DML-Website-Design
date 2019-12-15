@@ -40,7 +40,7 @@
                 <div class="col-md-9">
                     <div class="row">
                         <div class="col-md float-md-right d-flex justify-content-center">
-                            <div class="contact-box">
+                            <div class="contact-box" onclick="window.location = 'tel:+8801761740478'">
                                 <div class="contact-box-icon">
                                     <span class="box-icon fa fa-phone-alt"></span>
                                 </div>
@@ -51,7 +51,7 @@
                             </div>
                         </div>
                         <div class="col-md float-md-right d-flex justify-content-center">
-                            <div class="contact-box">
+                            <div class="contact-box" onclick="window.location = 'https://wa.me/8801761740478'">
                                 <div class="contact-box-icon">
                                     <span class="box-icon fab fa-whatsapp"></span>
                                 </div>
@@ -63,7 +63,7 @@
                         </div>
                         <div class="col-md float-md-right d-flex justify-content-center">
                             <div class="contact-box">
-                                <div class="contact-box-icon">
+                                <div class="contact-box-icon" onclick="window.location = 'mailto: support@dml.com.bd'">
                                     <span class="box-icon fa fa-envelope"></span>
                                 </div>
                                 <div class="contact-body">
@@ -92,10 +92,13 @@
                     </nav>
                 </div>
                 <div class="col-md-3">
-                    <div class="client-menu">
+                    <div class="sm-nav-right-menu">
                         <ul>
                             <li>
                                 <a href="#">LOGIN</a>
+                            </li>
+                            <li>
+                                <a href="#">TRACKING</a>
                             </li>
                         </ul>
                     </div>
@@ -103,8 +106,102 @@
             </div>
         </div>
     </section>
-    <section class="content">
-        
+    <section class="banner">
+        <div class="banner-overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="dml-slug-area">
+                            <p><i class="far fa-paper-plane"></i></p>
+                            <h3>FAST - SECURE - WORLDWIDE</h3>
+                        </div>
+                        <div class="dml-banner-text">
+                            <h1>Welcome to DML</h1>
+                        </div>
+                        <div class="dml-banner-search">
+                            <form action="">
+                                <label for="tarcking">TRACKING ID</label>
+                                <input id="tarcking" type="text"><button id="tracking-submit-btn">TRACK</button>
+                            </form>
+                        </div>
+                        <div class="dml-banner-arrow-btn">
+                            <h3>CALCULATE YOUR COST</h3>
+                            <p onclick="window.location = '#calculate'"><i class="fas fa-angle-down"></i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about-us-area">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="section-header-text">
+                        <h1>WHO WE ARE</h1>
+                        <p>DML Worldwide Express Bangladesh Ltd. is an international express service oriented company which specialized to provide courier services, cargo, freight forwarding and warehousing services all over the world. Recent consumers constantly need their goods to be delivered within the agreed time.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md">
+                    <div class="dml-service-list">
+                        <img src="dist/images/service/01.jpg" alt="" class="img-fluid">
+                        <div class="service-content">
+                            <h1>Worldwide Express</h1>
+                            <p>24/7 or 365 days all over the world and NFO services </p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="dml-service-list">
+                        <img src="dist/images/service/01.jpg" alt="" class="img-fluid">
+                        <div class="service-content">
+                            <h1>Worldwide Express</h1>
+                            <p>24/7 or 365 days all over the world and NFO services </p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="dml-service-list">
+                        <img src="dist/images/service/01.jpg" alt="" class="img-fluid">
+                        <div class="service-content">
+                            <h1>Worldwide Express</h1>
+                            <p>24/7 or 365 days all over the world and NFO services </p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="calculate-cost">
+        <div class="container">
+            <div class="row">
+                <div class="col-md">
+                    <div class="cost-area">
+                        <div class="cost-area-text">
+                            <h1>CALCULATE YOUR COST</h1>
+                            <p>The cost of your shipment is define by the destination country and weight of your parcel.</p>
+                        </div>
+                        <div class="cost-area-form">
+                            <form action="">
+                                <div class="from-group">
+                                    <label for="select_country">SELECT COUNTRY</label>
+                                    <input id="select_country" type="text" class="form-control" value="United State">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md d-none d-md-block">
+                    <img src="dist/images/calculation/01.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
     </section>
     <script src="dist/jquery.js"></script>
     <script src="dist/js/jquery.sm-nav-menu.js"></script>
