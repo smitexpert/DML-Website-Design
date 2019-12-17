@@ -147,27 +147,27 @@
             <div class="row">
                 <div class="col-md">
                     <div class="dml-service-list">
-                        <img src="dist/images/service/01.jpg" alt="" class="img-fluid">
+                        <img src="dist/images/service/air-ship.jpg" alt="" class="img-fluid">
                         <div class="service-content">
-                            <h1>Worldwide Express</h1>
-                            <p>24/7 or 365 days all over the world and NFO services </p>
+                            <h1>Air Shipping</h1>
+                            <p>we provied world wide import and export services for FOB and DDP</p>
                             <a href="#">Read More</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md">
                     <div class="dml-service-list">
-                        <img src="dist/images/service/01.jpg" alt="" class="img-fluid">
+                        <img src="dist/images/service/sea.jpg" alt="" class="img-fluid">
                         <div class="service-content">
-                            <h1>Worldwide Express</h1>
-                            <p>24/7 or 365 days all over the world and NFO services </p>
+                            <h1>Sea Freight</h1>
+                            <p>Strongs network with the giants of sea logistics</p>
                             <a href="#">Read More</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md">
                     <div class="dml-service-list">
-                        <img src="dist/images/service/01.jpg" alt="" class="img-fluid">
+                        <img src="dist/images/service/worldwide.jpg" alt="" class="img-fluid">
                         <div class="service-content">
                             <h1>Worldwide Express</h1>
                             <p>24/7 or 365 days all over the world and NFO services </p>
@@ -178,7 +178,7 @@
             </div>
         </div>
     </section>
-    <section class="calculate-cost">
+    <section class="calculate-cost" id="calculate">
         <div class="container">
             <div class="row">
                 <div class="col-md">
@@ -188,10 +188,17 @@
                             <p>The cost of your shipment is define by the destination country and weight of your parcel.</p>
                         </div>
                         <div class="cost-area-form">
-                            <form action="">
+                            <form action="" onsubmit="event.preventDefault()">
                                 <div class="from-group">
                                     <label for="select_country">SELECT COUNTRY</label>
                                     <input id="select_country" type="text" class="form-control" value="United State">
+                                </div>
+                                <div class="from-group">
+                                    <label for="select_weight">WEIGHT</label>
+                                    <input id="select_weight" type="number" step="0.5" min="0.5" class="form-control" value="0.5">
+                                </div>
+                                <div class="from-group">
+                                    <button>GET COST</button>
                                 </div>
                             </form>
                         </div>
@@ -199,6 +206,79 @@
                 </div>
                 <div class="col-md d-none d-md-block">
                     <img src="dist/images/calculation/01.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="fast-delivery">
+        <div class="container">
+            <div class="row">
+                <div class="col-md"></div>
+                <div class="col-md">
+                    <div class="fast-delivery-text">
+                        <h1>GET THE PRODUCT FASTEST DELIVERY</h1>
+                        <p>Get the peace of mind that comes with knowing that important product has arrived safely on time.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="section-header-text">
+                        <h1>OUR SERVICES</h1>
+                        <p>We provide worldwide fasted Air Shipping</p>
+                    </div>
+                </div>
+            </div>
+            <div class="service-lists">
+                <div class="row">
+                    <div class="col-md">
+                        <div class="service-box">
+                            <p class="icon"><span class="fa fa-user"></span></p class="icon">
+                            <h2>Service Name Here</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam obcaecati id quae, soluta molestiae amet quas aspernatur natus quia, assumenda aliquam nobis dolore, incidunt impedit iusto at. Rerum, accusantium quos!</p>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="service-box">
+                            <p class="icon"><span class="fa fa-user"></span></p>
+                            <h2>Service Name Here</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam obcaecati id quae, soluta molestiae amet quas aspernatur natus quia, assumenda aliquam nobis dolore, incidunt impedit iusto at. Rerum, accusantium quos!</p>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="service-box">
+                            <p class="icon"><span class="fa fa-user"></span></p class="icon">
+                            <h2>Service Name Here</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam obcaecati id quae, soluta molestiae amet quas aspernatur natus quia, assumenda aliquam nobis dolore, incidunt impedit iusto at. Rerum, accusantium quos!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md">
+                        <div class="service-box">
+                            <p class="icon"><span class="fa fa-user"></span></p class="icon">
+                            <h2>Service Name Here</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam obcaecati id quae, soluta molestiae amet quas aspernatur natus quia, assumenda aliquam nobis dolore, incidunt impedit iusto at. Rerum, accusantium quos!</p>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="service-box">
+                            <p class="icon"><span class="fa fa-user"></span></p>
+                            <h2>Service Name Here</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam obcaecati id quae, soluta molestiae amet quas aspernatur natus quia, assumenda aliquam nobis dolore, incidunt impedit iusto at. Rerum, accusantium quos!</p>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="service-box">
+                            <p class="icon"><span class="fa fa-user"></span></p class="icon">
+                            <h2>Service Name Here</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam obcaecati id quae, soluta molestiae amet quas aspernatur natus quia, assumenda aliquam nobis dolore, incidunt impedit iusto at. Rerum, accusantium quos!</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

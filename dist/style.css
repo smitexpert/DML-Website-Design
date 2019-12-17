@@ -109,6 +109,8 @@ section .section-header-text {
     margin: 0 auto;
 }
 section .section-header-text h1 {
+    margin: 0 auto;
+    width: 450px;
     margin-bottom: 20px;
 }
 section .section-header-text h1::before {
@@ -118,7 +120,10 @@ section .section-header-text h1::before {
     background-color: #f6ab36;
     width: 100px;
     top: 46px;
-    margin-left: 50px;
+    width: 100px;
+    top: 46px;
+    left: 50%;
+    margin-left: -50px;
 }
 
 section .section-header-text p {
@@ -257,6 +262,13 @@ section.about-us-area .dml-service-list .service-content a {
     border: 1px solid;
     padding: 10px 20px;
     border-bottom-right-radius: 25px;
+    transition: 0.3s ease-in-out;
+}
+
+section.about-us-area .dml-service-list .service-content a:hover {
+    color: #ffffff;
+    background-color: #f6ab36;
+    transition: 0.3s ease-in-out;
 }
 
 section.about-us-area .dml-service-list .service-content a:hover {
@@ -279,7 +291,118 @@ section.about-us-area .dml-service-list p {
 section.calculate-cost {
     background-color: #F7F5F4;
     padding: 80px 0;
+    padding-bottom: 0;
 }
+
+section.calculate-cost .cost-area-form label {
+    color: #302D7E;
+    font-size: 18px;
+}
+
+section.calculate-cost .cost-area-form input {
+    padding: 25px 10px;
+    border: 1px solid #302D7E;
+    border-radius: 0;
+    color: #302D7E;
+    border-bottom-right-radius: 25px;
+}
+
+section.calculate-cost .cost-area-form .from-group {
+    margin: 20px 0;
+}
+
+section.calculate-cost .cost-area-form button {
+    background-color: #ffffff;
+    color: #302D7E;
+    border: 1px solid #302D7E;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: 0.5s ease-in-out;
+    border-bottom-right-radius: 25px;
+}
+
+section.calculate-cost .cost-area-form button:hover {
+    background-color: #302D7E;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: 0.5s ease-in-out;
+}
+
+section.fast-delivery {
+    padding: 80px 0;
+    background-image: url(images/fast/rocket.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 60px 0;
+}
+
+section.fast-delivery .fast-delivery-text {
+    padding: 60px 0;
+}
+
+section.fast-delivery .fast-delivery-text h1 {
+    display: inline-block;
+    width: 100%;
+    background-color: #302D7E;
+    color: #ffffff;
+}
+
+section.fast-delivery .fast-delivery-text p {
+    display: inline;
+    background-color: #302D7E;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+
+section.services {
+    background-color: #302D7E;
+    padding: 80px 0;
+}
+
+section.services .section-header-text {
+    color: #ffffff;
+}
+
+section.services .section-header-text h1 {
+    font-weight: bold;
+}
+
+section.services .service-lists .service-box {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-bottom: 8px solid #f6ab36;
+    margin: 20px 0;
+}
+
+section.services .service-lists .service-box .icon, section.services .service-lists .service-box h2 {
+    color: #000000;
+    transition: 0.5s ease-in-out;
+}
+
+section.services .service-lists .service-box:hover .icon, section.services .service-lists .service-box:hover h2 {
+    color: #f6ab36;
+    transition: 0.5s ease-in-out;
+}
+
+section.services .service-lists .service-box .icon {
+    font-size: 28px;
+}
+
+section.services .service-lists .service-box h2 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+section.services .service-lists .service-box p {
+    font-size: 16px;
+}
+
+
 
 @media (min-width: 1200px){
     .container, .container-lg, .container-md, .container-sm, .container-xl {
@@ -306,6 +429,10 @@ section.calculate-cost {
 
     .banner .dml-banner-search label {
         left: 20px;
+    }
+
+    section.fast-delivery {
+        background-position-x: 70px;
     }
 }
 
