@@ -141,7 +141,7 @@ section .section-header-text p {
 }
 
 .banner .banner-overlay {
-    height: 400px;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -289,7 +289,7 @@ section.about-us-area .dml-service-list p {
 
 
 section.calculate-cost {
-    background-color: #F7F5F4;
+    background-color: #f9ff97;
     padding: 80px 0;
     padding-bottom: 0;
 }
@@ -402,7 +402,151 @@ section.services .service-lists .service-box p {
     font-size: 16px;
 }
 
+footer .footer-area {
+    background-color: #222;
+    padding: 60px 0;
+}
 
+footer .footer-area .footer-about-us {
+    width: 100%;
+    height: auto;
+}
+
+footer .footer-area .footer-about-us .footer-logo {
+    width: 140px;
+    height: auto;
+    padding: 10px 0;
+}
+
+footer .footer-area .footer-about-us .footer-text {
+    color: #ffffff;
+}
+
+footer .footer-area .footer-menu {
+    padding: 10px 0;
+    color: #ffffff;
+}
+
+footer .footer-area .footer-menu h3 {
+    color: #ffffff;
+}
+
+footer .footer-area .footer-menu h3::before {
+    content: '';
+    background-color: #f6ab36;
+    width: 30%;
+    height: 2px;
+    position: absolute;
+    margin-left: 0;
+    margin-top: 35px;
+}
+
+footer .footer-area .footer-menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+footer .footer-area .footer-menu ul li {
+    padding: 0;
+    margin: 0;
+    padding-top: 8px;
+    margin-left: 10px;
+}
+
+footer .footer-area .footer-menu ul li::before {
+    content: "\00B0";
+    position: absolute;
+    margin-left: -15px;
+    margin-top: 4px;
+    font-size: 22px;
+    color: #f6ab36;
+}
+
+footer .footer-area .footer-menu ul li a {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+footer .footer-area .footer-menu ul li a:hover {
+    color: #f6ab36;
+}
+
+footer .footer-area .footer-contact {
+    padding: 10px 0;
+    color: #ffffff;
+}
+
+footer .footer-area .footer-contact h3 {
+    color: #ffffff;
+}
+
+footer .footer-area .footer-contact h3::before {
+    content: '';
+    background-color: #f6ab36;
+    width: 30%;
+    height: 2px;
+    position: absolute;
+    margin-left: 0;
+    margin-top: 35px;
+}
+
+footer .footer-area .footer-contact ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+footer .footer-area .footer-contact ul li {
+    margin: 15px 0;
+}
+
+footer .footer-area .footer-contact ul li .contact-box {
+    position: relative;
+}
+
+footer .footer-area .footer-contact ul li .contact-box .box-icon {
+    position: absolute;
+    font-size: 18px;
+    top: 50%;
+    margin-top: -12px;
+    color: #f6ab36;
+}
+
+footer .footer-area .footer-contact ul li .contact-box .box-text {
+    position: relative;
+    margin-left: 30px;
+}
+
+footer .footer-area .footer-contact ul li .contact-box .box-text p {
+    margin: 0;
+}
+
+footer .footer-area .footer-contact ul li .contact-box .box-text a {
+    color: #ffffff;
+}
+
+footer .footer-area .footer-contact ul li .contact-box .box-text a:hover {
+    color: #f6ab36;
+}
+
+footer .footer-bar {
+    height: 60px;
+    background-color: #302D7E;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+footer .footer-bar p {
+    margin: 0;
+}
+footer .footer-bar p a {
+    color: #ffffff;
+}
+footer .footer-bar p a:hover {
+    color: #f6ab36;
+}
 
 @media (min-width: 1200px){
     .container, .container-lg, .container-md, .container-sm, .container-xl {
@@ -412,6 +556,9 @@ section.services .service-lists .service-box p {
 
 
 @media screen and (max-width: 767px) {
+    .banner .banner-overlay {
+        height: 450px;
+    }
     .banner .dml-banner-search {
         margin-left: 0;
     }
@@ -434,6 +581,14 @@ section.services .service-lists .service-box p {
     section.fast-delivery {
         background-position-x: 70px;
     }
+
+    section .section-header-text h1 {
+        width: auto;
+    }
+
+    footer .footer-menu {
+        padding: 30px 0;
+    }
 }
 
 
@@ -441,6 +596,21 @@ section.services .service-lists .service-box p {
 
     .banner .dml-banner-search input {
         max-width: 100%;
+    }
+
+    footer .footer-about-us .footer-logo {
+        text-align: center;
+        width: 100%;
+    }
+
+    footer .footer-bar {
+        height: auto;
+        background-color: #302D7E;
+        color: #ffffff;
+        /* display: flex; */
+        /* align-items: center; */
+        text-align: center;
+        padding: 10px 0;
     }
     
 }
