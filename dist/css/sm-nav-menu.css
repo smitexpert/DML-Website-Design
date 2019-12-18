@@ -1,3 +1,6 @@
+.sm-responsive-nav {
+    text-align: center;
+}
 .sm-responsive-nav ul {
     list-style: none;
     padding: 0;
@@ -11,9 +14,15 @@
 .sm-responsive-nav ul li a {
     font-size: 14px;
     display: block;
-    padding: 18px 20px;
+    padding: 5px 20px;
+    margin: 10px 0;
     font-weight: bold;
-    color: #ffffff;
+    color: #333333;
+}
+
+.sm-responsive-nav ul li a:hover {
+    text-decoration: none;
+    border-bottom: 2px solid #333333;
 }
 
 .sm-responsive-nav ul li.toggle-menu {
@@ -21,10 +30,10 @@
 }
 
 .sm-responsive-nav ul li.active a {
-    color: #333333;
+    color: #ff8404;
     text-decoration: none;
-    /* border-bottom: 1px solid #f6ab36; */
-    background-color: #f6ab36;
+    border-bottom: 2px solid #ff8404;
+    letter-spacing: 1px;
 }
 
 .sm-nav-right-menu {
@@ -124,7 +133,7 @@
 
     .sm-responsive-nav ul li.toggle-menu a {
         display: block;
-        background-color: #f6ab36;
+        background-color: #ff8404;
         color: #fff;
         animation: none;
     }

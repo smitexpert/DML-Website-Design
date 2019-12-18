@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Abel', sans-serif;
     font-weight: lighter;
@@ -19,7 +22,7 @@ body {
     display: inline-block;
 }
 .top-menu p a {
-    color: #f6ab36;
+    color: #ff8404;
 }
 .top-menu a {
     color: #fff;
@@ -30,7 +33,7 @@ body {
 }
 
 .top-menu a.button {
-    background-color: #f6ab36;
+    background-color: #ff8404;
     color: #fff;
 }
 .top-menu .fa-whatsapp {
@@ -43,7 +46,8 @@ body {
 
 .header-area {
     background-color: #ffffff;
-    margin: 10px 0;
+    padding: 10px 0;
+    border-bottom: 1px solid #ff840430;
 }
 
 .header-area .logo-img {
@@ -66,7 +70,7 @@ body {
     text-align: center;
     margin: 5px 0;
     font-size: 28px;
-    color: #f6ab36;
+    color: #ff8404;
 }
 .header-area .contact-box .contact-box-icon .box-icon.fa-whatsapp {
     color: #25D366;
@@ -87,7 +91,7 @@ body {
 
 .header-area .contact-box .contact-body p a {
     font-size: 14px;
-    color: #f6ab36;
+    color: #ff8404;
 }
 
 
@@ -96,7 +100,7 @@ body {
 ##### NAV MENU  #####
 */
 .nav-menu {
-    background-color: #333333;
+    background-color: #ffffff;
 }
 
 /* 
@@ -117,7 +121,7 @@ section .section-header-text h1::before {
     content: '';
     position: absolute;
     height: 2px;
-    background-color: #f6ab36;
+    background-color: #ff8404;
     width: 100px;
     top: 46px;
     width: 100px;
@@ -186,7 +190,7 @@ section .section-header-text p {
 
 .banner .dml-banner-search #tracking-submit-btn {
     border: none;
-    background-color: #f6ab36;
+    background-color: #ff8404;
     font-size: 20px;
     padding: 19px;
     position: absolute;
@@ -258,7 +262,7 @@ section.about-us-area .dml-service-list .service-content {
 }
 
 section.about-us-area .dml-service-list .service-content a {
-    color: #f6ab36;
+    color: #ff8404;
     border: 1px solid;
     padding: 10px 20px;
     border-bottom-right-radius: 25px;
@@ -267,7 +271,7 @@ section.about-us-area .dml-service-list .service-content a {
 
 section.about-us-area .dml-service-list .service-content a:hover {
     color: #ffffff;
-    background-color: #f6ab36;
+    background-color: #ff8404;
     transition: 0.3s ease-in-out;
 }
 
@@ -276,7 +280,7 @@ section.about-us-area .dml-service-list .service-content a:hover {
 }
 
 section.about-us-area .dml-service-list h1 {
-    color: #f6ab36;
+    color: #ff8404;
     font-size: 24px;
     text-align: center;
     margin: 10px 0;
@@ -289,7 +293,7 @@ section.about-us-area .dml-service-list p {
 
 
 section.calculate-cost {
-    background-color: #f9ff97;
+    background-color: #ff8404c7;
     padding: 80px 0;
     padding-bottom: 0;
 }
@@ -375,7 +379,7 @@ section.services .service-lists .service-box {
     text-align: center;
     background-color: #ffffff;
     padding: 20px;
-    border-bottom: 8px solid #f6ab36;
+    border-bottom: 8px solid #ff8404;
     margin: 20px 0;
 }
 
@@ -385,12 +389,22 @@ section.services .service-lists .service-box .icon, section.services .service-li
 }
 
 section.services .service-lists .service-box:hover .icon, section.services .service-lists .service-box:hover h2 {
-    color: #f6ab36;
-    transition: 0.5s ease-in-out;
+    color: #ff8404;
+    transition: 0.3s ease-in-out;
+}
+
+section.services .service-lists .service-box:hover .icon {
+    border: 3px solid #ff8404;
 }
 
 section.services .service-lists .service-box .icon {
     font-size: 28px;
+    display: inline-block;
+    padding: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 500px;
+    border: 3px solid #ffffff;
 }
 
 section.services .service-lists .service-box h2 {
@@ -433,7 +447,7 @@ footer .footer-area .footer-menu h3 {
 
 footer .footer-area .footer-menu h3::before {
     content: '';
-    background-color: #f6ab36;
+    background-color: #ff8404;
     width: 30%;
     height: 2px;
     position: absolute;
@@ -460,7 +474,7 @@ footer .footer-area .footer-menu ul li::before {
     margin-left: -15px;
     margin-top: 4px;
     font-size: 22px;
-    color: #f6ab36;
+    color: #ff8404;
 }
 
 footer .footer-area .footer-menu ul li a {
@@ -469,7 +483,7 @@ footer .footer-area .footer-menu ul li a {
 }
 
 footer .footer-area .footer-menu ul li a:hover {
-    color: #f6ab36;
+    color: #ff8404;
 }
 
 footer .footer-area .footer-contact {
@@ -483,7 +497,7 @@ footer .footer-area .footer-contact h3 {
 
 footer .footer-area .footer-contact h3::before {
     content: '';
-    background-color: #f6ab36;
+    background-color: #ff8404;
     width: 30%;
     height: 2px;
     position: absolute;
@@ -510,7 +524,7 @@ footer .footer-area .footer-contact ul li .contact-box .box-icon {
     font-size: 18px;
     top: 50%;
     margin-top: -12px;
-    color: #f6ab36;
+    color: #ff8404;
 }
 
 footer .footer-area .footer-contact ul li .contact-box .box-text {
@@ -527,7 +541,7 @@ footer .footer-area .footer-contact ul li .contact-box .box-text a {
 }
 
 footer .footer-area .footer-contact ul li .contact-box .box-text a:hover {
-    color: #f6ab36;
+    color: #ff8404;
 }
 
 footer .footer-bar {
@@ -545,7 +559,7 @@ footer .footer-bar p a {
     color: #ffffff;
 }
 footer .footer-bar p a:hover {
-    color: #f6ab36;
+    color: #ff8404;
 }
 
 @media (min-width: 1200px){
