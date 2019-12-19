@@ -85,6 +85,7 @@
     .sm-responsive-nav {
         display: block;
         margin: 20px 0;
+        text-align: center !important;
     }
 
     .sm-nav-right-menu ul {

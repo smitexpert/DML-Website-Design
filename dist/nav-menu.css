@@ -1,0 +1,57 @@
+/* 
+##### NAV MENU  #####
+*/
+.nav-menu {
+    background-color: #302D7E;
+}
+
+.nav-menu .logo-img {
+    height: 60px;
+    width: auto;
+    top: 50%;
+    margin-top: -30px;
+    position: absolute;
+}
+
+.sm-responsive-nav {
+    text-align: right;
+    padding: 10px 0;
+}
+
+.sm-responsive-nav ul {
+    margin: 4px 0;
+}
+
+.sm-responsive-nav ul li a {
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+.sm-responsive-nav ul li a:hover {
+    border: none;
+    color: #ff8404;
+}
+
+
+@media screen and (max-width: 767px) {
+    .nav-menu {
+        padding: 10px 0;
+    }
+    .nav-menu .logo-img {
+        height: 60px;
+        width: auto;
+        position: relative;
+        top: 0;
+        margin-top: 0;
+        display: inline-block;
+        
+    }
+
+    .sm-responsive-nav {
+        padding: 0;
+        margin: 0;
+    }
+    .sm-responsive-nav ul li.toggle-menu button {
+        margin-top: 16px;
+    }
+}

@@ -94,15 +94,6 @@ body {
     color: #ff8404;
 }
 
-
-
-/* 
-##### NAV MENU  #####
-*/
-.nav-menu {
-    background-color: #ffffff;
-}
-
 /* 
 ##### SECTINO CSS  #####
 */
@@ -245,6 +236,50 @@ section .section-header-text p {
     border-radius: 500px;
     font-size: 14px;
     cursor: pointer;
+}
+
+.info-boxs {
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    margin-top: -165px;
+    right: 0;
+}
+
+.info-boxs .info-box {
+    background-color: #ff8404;
+    padding: 15px 10px;
+    margin-bottom: 10px;
+}
+
+.info-box.info-whatsapp-box {
+    background-color: #25D366;
+}
+
+
+.info-boxs .info-box .info-box-icon {
+    float: left;
+    font-size: 24px;
+    margin-right: 5px;
+    color: #ffffff;
+    margin-top: 3px;
+}
+
+.info-boxs .info-box p {
+    font-size: 18px;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.info-boxs .info-box p a {
+    color: #ffffff;
+}
+
+.info-boxs .info-body h1 {
+    font-size: 22px;
+    margin: 0;
+    color: #ffffff;
+    font-weight: bold;
 }
 
 section.about-us-area {
@@ -562,12 +597,43 @@ footer .footer-bar p a:hover {
     color: #ff8404;
 }
 
+
+
+@media (min-width: 768px){
+    .container, .container-md, .container-sm {
+        max-width: 100%;
+    }
+    /* .info-boxs {
+        margin-top: -20px !important;
+    } */
+}
+
 @media (min-width: 1200px){
     .container, .container-lg, .container-md, .container-sm, .container-xl {
         max-width: 992px;
     }
 }
+@media screen and (max-width: 1199px) {
+    .info-boxs {
+        width: 800px;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 100%;
+        margin-top: -20px;
+        left: 50%;
+        margin-left: -400px
+    }
 
+    .info-boxs .info-box {
+        width: 200px;
+        margin-right: 5px;
+    }
+
+    .info-boxs .info-box:last-child {
+        margin-right: 0;
+    }
+}
 
 @media screen and (max-width: 767px) {
     .banner .banner-overlay {
@@ -590,6 +656,15 @@ footer .footer-bar p a:hover {
 
     .banner .dml-banner-search label {
         left: 20px;
+    }
+
+    .info-boxs {
+        position: relative;
+        top: 0;
+        margin-top: 0;
+        width: 100%;
+        left: 0;
+        margin-left: 0;
     }
 
     section.fast-delivery {
@@ -625,6 +700,24 @@ footer .footer-bar p a:hover {
         /* align-items: center; */
         text-align: center;
         padding: 10px 0;
+    }
+
+    .info-boxs {
+        display: inline;
+    }
+
+    .info-boxs .info-box {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info-boxs .info-box:last-child {
+        margin-bottom: 0;
+    }
+
+    .info-boxs .info-box .info-body {
+        width: 200px;
+        margin: 0 auto;
     }
     
 }
