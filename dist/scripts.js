@@ -12,3 +12,8 @@ $("#tarcking").focusout(function(){
         $(".dml-banner-search label").removeClass('label');
     }
 })
+
+$(".nav-contact-menu ul li").hover(function(){
+    $(".drop-down").css('display', 'block');
+    $(".drop-down").addClass('fadeInDown animated');
+});
