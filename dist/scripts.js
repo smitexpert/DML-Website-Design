@@ -13,7 +13,7 @@ $("#tarcking").focusout(function(){
     }
 })
 
-$(".nav-contact-menu ul li").hover(function(){
-    $(".drop-down").css('display', 'block');
-    $(".drop-down").addClass('fadeInDown animated');
-});
+// $(".nav-contact-menu ul li").hover(function(){
+//     $(".drop-down").css('display', 'block');
+//     $(".drop-down").addClass('fadeInDown animated');
+// });

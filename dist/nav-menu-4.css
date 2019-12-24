@@ -101,14 +101,19 @@ section.nav-menu .top-menu ul li:hover a {
 
 .nav-contact-menu ul > li:hover ul.drop-down {
     /* display: block; */
+    opacity: 1;
+    visibility: visible;
 }
 
 .nav-contact-menu ul.drop-down {
     position: absolute;
     right: 0;
     padding-top: 25px;
-    width: 160px;
-    display: none;
+    width: 200px;
+    /* display: none; */
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s ease-in-out;
 }
 
 .nav-contact-menu ul.drop-down li {
@@ -139,7 +144,7 @@ section.nav-menu .top-menu ul li:hover a {
 .nav-contact-menu ul.drop-down li a .contact-info {
     margin: 0;
     padding: 0;
-    margin-left: 20px;
+    margin-left: 25px;
 }
 
 .nav-contact-menu ul.drop-down li a .contact-info p.contact-title {
@@ -153,6 +158,8 @@ section.nav-menu .top-menu ul li:hover a {
     font-size: 18px;
     margin-top: -10px;
 }
+
+
 
 
 
@@ -220,10 +227,14 @@ section.nav-menu .top-menu ul li:hover a {
     }
 
     .nav-contact-menu ul.drop-down {
-        position: relative;
+        position: absolute;
         width: 100%;
         padding-top: 5px;
         text-align: left;
+    }
+
+    .nav-contact-menu ul li:hover ul.drop-down {
+        position: relative;
     }
 }
 
