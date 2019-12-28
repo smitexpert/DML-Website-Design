@@ -92,6 +92,10 @@ section.nav-menu .top-menu ul li:hover a {
     z-index: 999;
 }
 
+.nav-contact-menu ul > li > a.contact-show-btn {
+    font-weight: bold;
+}
+
 .nav-contact-menu ul > li > a {
     background-color: #ffffff;
     color: #EA1F29;
@@ -123,6 +127,10 @@ section.nav-menu .top-menu ul li:hover a {
 .nav-contact-menu ul.drop-down li a {
     background: none;
     padding: 10px 15px;
+}
+
+.nav-contact-menu ul.drop-down li a:hover {
+    text-decoration: none;
 }
 
 .nav-contact-menu ul.drop-down li:first-child {

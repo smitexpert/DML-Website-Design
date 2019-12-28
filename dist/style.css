@@ -451,6 +451,51 @@ section.services .service-lists .service-box p {
     font-size: 16px;
 }
 
+
+section.contact {
+    margin: 20px 0;
+}
+
+section.contact .contat-office {
+    margin-top: 100px;
+}
+
+section.contact .contact-box{
+    margin: 20px 0;
+}
+
+section.contact .contact-box-item {
+    margin: 10px 0;
+}
+
+section.contact .contact-box-item h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+section.contact .contact-box-item ul {
+    padding: 0;
+    margin: 0;
+    margin-left: 20px;
+}
+
+section.contact .contact-box-item ul li {
+    margin-bottom: 10px;
+}
+
+section.contact .contact-box-item ul li p {
+    margin: 0;
+    padding: 0;
+}
+
+section.contact .contact-box-item ul li p.contact-title {
+    font-weight: bold;
+}
+
+section.contact .contact-box-item ul li p.contact-info a {
+    color: #EA1F29;
+}
+
 footer .footer-area {
     background-color: #222;
     padding: 60px 0;
