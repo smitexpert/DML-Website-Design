@@ -13,6 +13,21 @@ $("#tarcking").focusout(function(){
     }
 })
 
+$(".contact-show-btn").click(function(e){
+    e.preventDefault();
+    // $(".drop-down").css('margin-right', '0px');
+    $(".drop-down").addClass('show');
+    $(".close-menu").addClass('show');
+    $(".contact-show-btn").addClass('hide');
+})
+
+$(".close-menu").click(function(e){
+    e.preventDefault();
+    $(".drop-down").removeClass('show');
+    $(".close-menu").removeClass('show');
+    $(".contact-show-btn").removeClass('hide');
+})
+
 // $(".nav-contact-menu ul li").hover(function(){
 //     $(".drop-down").css('display', 'block');
 //     $(".drop-down").addClass('fadeInDown animated');
