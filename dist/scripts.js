@@ -32,3 +32,11 @@ $(".close-menu").click(function(e){
 //     $(".drop-down").css('display', 'block');
 //     $(".drop-down").addClass('fadeInDown animated');
 // });
+
+window.onload = () => {
+    'use strict';
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker
+            .register('./sw.js');
+    }
+}
