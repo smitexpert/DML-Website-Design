@@ -1,0 +1,453 @@
+#sm-mobile-nav {
+    display: none;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-color: #ffffff;;
+    z-index: 9999;
+    margin-left: -900px;
+    transition: 300ms ease-in-out;
+}
+
+#sm-mobile-nav.show {
+    margin-left: -62px;
+}
+
+#sm-mobile-nav a.mobile-nav-close-btn {
+    position: absolute;
+    font-size: 32px;
+    right: 0;
+    background:#EA1F29;
+    padding: 10px 20px;
+    margin-right: -62px;
+    z-index: 999;
+    display: block;
+    color: white;
+}
+
+#sm-mobile-nav .mobile-menu {
+    margin: 0;
+    margin-left: 50px;
+    margin-top: 30px;
+    list-style: none;
+    width: 80%;
+}
+
+#sm-mobile-nav .mobile-menu li {
+    border-bottom: 1px dashed #6C6C6C;
+}
+
+#sm-mobile-nav .mobile-menu li a {
+    display: block;
+    padding: 10px 0;
+    font-size: 26px;
+    color: #6C6C6C;
+}
+
+section.mobile-nav {
+    background-color: #C70F15;
+    display: none;
+}
+
+section.mobile-nav .flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section.mobile-nav .flex-container .menu-items {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+}
+
+section.mobile-nav .flex-container .menu-items li a {
+    font-size: 22px;
+    display: block;
+    padding: 10px;
+    color: #ffffff;
+}
+
+section.mobile-nav .flex-container .mobile-logo {
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+section.mobile-nav .flex-container .mobile-logo img {
+    width: 90px;
+}
+
+section.top-menu {
+    background-color: #C70F15;
+}
+
+section.top-menu .top-menu-items {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    color: #ffffff;
+}
+
+section.top-menu .top-menu-items li {
+    display: inline-block;
+    margin: 10px 0;
+    border-right: 2px solid #ffffff;
+}
+
+section.top-menu .top-menu-items li:last-child {
+    border-right: none;
+}
+
+section.top-menu ul.contact-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 20px;
+}
+
+section.top-menu ul.contact-items li a {
+    background-color: #ffffff;
+    display: block;
+    padding: 10px 20px;
+    color: #C70F15;
+    font-weight: bold;
+}
+
+section.top-menu ul.contact-items li:hover .items {
+    margin-top: 0;
+    visibility: visible;
+    opacity: 1;
+}
+
+section.top-menu ul.contact-items li a:hover {
+    text-decoration: none;
+}
+
+section.top-menu .contact-items .items {
+    position: absolute;
+    margin: 0;
+    margin-top: -100px;
+    z-index: 999;
+    padding: 0;
+    list-style: none;
+    right: 15px;
+    transition: all 0.5s ease-in-out;
+    width: 200px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+section.top-menu .contact-items .items .contact-icon {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    font-size: 24px;
+    margin-top: 5px;
+}
+
+section.top-menu .contact-items .items .contact-info {
+    margin-left: 30px;
+    font-weight: normal;
+}
+
+section.top-menu .contact-items .items .contact-info .contact-title {
+    margin: 0;
+    padding: 0;
+}
+
+section.top-menu .contact-items .items .contact-info .contact-number {
+    margin: 0;
+    padding: 0;
+    margin-top: -5px;
+}
+
+section.top-menu .top-menu-items li a {
+    display: block;
+    color: #ffffff;
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+section.top-menu .top-menu-items li a:hover {
+    text-decoration: none;
+}
+
+/* section.top-menu .top-menu-items li a span {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+section.nav-menu {
+    background-color: #EA1F29;
+}
+
+section.nav-menu .logo-class {
+    background-color: #ffffff;
+    padding: 30px 10px;
+}
+
+section.nav-menu img.logo-img {
+    width: 100%;
+    height: auto;
+}
+
+section.nav-menu .sm-responsive-nav ul {
+    background-color: #ffffff;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+section.nav-menu .sm-responsive-nav ul li {
+    border-right: 1px solid #dedede;
+}
+
+section.nav-menu .sm-responsive-nav ul li a{
+    color: #474747;
+    padding: 0 25px;
+}
+
+section.nav-menu .sm-responsive-nav ul li:hover a {
+    border: none;
+}
+
+section.nav-menu .top-menu {
+    margin: 20px 0;
+}
+
+section.nav-menu .top-menu ul {
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+section.nav-menu .top-menu ul li {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 0 20px;
+    border-right: 1px solid #bf2525;
+}
+
+section.nav-menu .top-menu ul li:first-child {
+    padding-left: 0;
+}
+
+section.nav-menu .top-menu ul li:last-child {
+    padding-right: 0;
+    border-right: none;
+}
+
+section.nav-menu .top-menu ul li a {
+    color: #ffffff;
+}
+
+section.nav-menu .top-menu ul li a span {
+    border: 3px solid;
+    border-radius: 500px;
+    padding-top: 5px;
+    width: 33px;
+    height: 33px;
+    text-align: center;
+}
+
+section.nav-menu .top-menu ul li:hover a {
+    text-decoration: none;
+}
+
+.nav-contact-menu {
+    z-index: 999;
+}
+
+.nav-contact-menu ul {
+    position: absolute;
+    right: 0;
+    top: 25px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    z-index: 999;
+}
+
+.nav-contact-menu ul > li > a.contact-show-btn {
+    font-weight: bold;
+}
+
+.nav-contact-menu ul > li > a.contact-show-btn.hide {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.nav-contact-menu ul > li > a {
+    background-color: #ffffff;
+    color: #EA1F29;
+    padding: 10px 25px;
+    display: block;
+}
+
+.nav-contact-menu ul > li:hover ul.drop-down {
+    /* display: block; */
+    /* opacity: 1;
+    visibility: visible; */
+    /* margin-right: 0; */
+}
+
+.nav-contact-menu ul.drop-down {
+    position: fixed;
+    right: 0;
+    /* padding-top: 25px; */
+    width: 200px;
+    /* display: none; */
+    /* opacity: 0;
+    visibility: hidden; */
+    margin-right: -200px;
+    transition: all 0.5s ease-in-out;
+    
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.nav-contact-menu ul.drop-down.show {
+    margin-right: 0;
+}
+
+.nav-contact-menu ul.drop-down .close-menu {
+    display: none;
+    position: absolute;
+    background: white;
+    padding: 10px;
+    margin-left: -30px;
+    color: red;
+}
+
+.nav-contact-menu ul.drop-down .close-menu.show {
+    display: block;
+}
+
+.nav-contact-menu ul.drop-down li {
+    background-color: #ffffff;
+}
+
+.nav-contact-menu ul.drop-down li a {
+    background: none;
+    padding: 10px 15px;
+}
+
+.nav-contact-menu ul.drop-down li a:hover {
+    text-decoration: none;
+}
+
+.nav-contact-menu ul.drop-down li:first-child {
+    border-top-left-radius: 10px;
+}
+
+.nav-contact-menu ul.drop-down li:last-child {
+    border-bottom-left-radius: 10px;
+}
+
+.nav-contact-menu ul.drop-down li a .contact-icon {
+    width: 15px;
+    height: 15px;
+    float: left;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.nav-contact-menu ul.drop-down li a .contact-info {
+    margin: 0;
+    padding: 0;
+    margin-left: 25px;
+    text-align: left;
+}
+
+.nav-contact-menu ul.drop-down li a .contact-info p.contact-title {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-contact-menu ul.drop-down li a .contact-info p.contact-number {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    margin-top: -10px;
+}
+
+
+
+
+
+@media screen and (max-width: 1199px) {
+    section.nav-menu .top-menu ul {
+        float: left;
+    }
+
+    .nav-contact-menu ul {
+        top: 0;
+    }
+
+    .nav-contact-menu ul.drop-down {
+        padding-top: 45px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #sm-mobile-nav {
+        display: block;
+    }
+
+    section.mobile-nav {
+        display: block;
+    }
+
+    section.top-menu {
+        display: none;
+    }
+
+    section.nav-menu {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .nav-contact-menu ul {
+        position: relative;
+        width: 100%;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .nav-contact-menu ul.drop-down {
+        position: absolute;
+        width: 100%;
+        right: 200px;
+        margin-top: -500px;
+    }
+
+    .nav-contact-menu ul.drop-down.show {
+        right: 0;
+        margin-top: 0;
+    }
+
+    .nav-contact-menu ul.drop-down .close-menu {
+        margin-left: 0;
+        right: 0;
+        margin-top: -45px;
+    }
+
+    /* .nav-contact-menu ul li:hover ul.drop-down {
+        position: relative;
+    } */
+}
+
+@media (max-width: 320px){
+    section.nav-menu .top-menu {
+        right: 15px;
+    }
+}

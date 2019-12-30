@@ -28,6 +28,17 @@ $(".close-menu").click(function(e){
     $(".contact-show-btn").removeClass('hide');
 })
 
+
+$("#show-mobile-nav").click(function(e){
+    e.preventDefault();
+    $("#sm-mobile-nav").addClass('show');
+})
+
+$(".mobile-nav-close-btn").click(function(e){
+    e.preventDefault();
+    $("#sm-mobile-nav").removeClass('show');
+})
+
 // $(".nav-contact-menu ul li").hover(function(){
 //     $(".drop-down").css('display', 'block');
 //     $(".drop-down").addClass('fadeInDown animated');

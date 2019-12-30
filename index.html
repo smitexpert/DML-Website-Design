@@ -8,72 +8,90 @@
     <link rel="stylesheet" href="dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="dist/fonts/css/all.css">
     <link rel="stylesheet" href="dist/css/sm-nav-menu.css">
-    <link rel="stylesheet" href="https://raw.githubusercontent.com/daneden/animate.css/master/animate.css">
     <link rel="stylesheet" href="dist/style.css">
-    <link rel="stylesheet" href="dist/nav-menu-4.css">
+    <link rel="stylesheet" href="dist/nav-menu-5.css">
 </head>
 <body>
-    <!-- <section class="top-menu">
+    <div id="sm-mobile-nav">
+        <a href="#" class="mobile-nav-close-btn"><i class="fa fa-times"></i></a>
+        <ul class="mobile-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Price</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <section class="mobile-nav">
+        <div class="container">
+            <div class="flex-container">
+                <ul class="menu-items">
+                    <li><a id="show-mobile-nav" href="#"><i class="fas fa-bars"></i></a></li>
+                    <li><a href="#"><i class="fas fa-map-marker-alt"></i></a></li>
+                </ul>
+                <div class="mobile-logo">
+                    <a href="index.html"><img src="dist/images/logo.png" alt=""></a>
+                </div>
+                <ul class="menu-items">
+                    <li><a href="#"><i class="fas fa-user"></i></a></li>
+                    <li><a href="#"><i class="fas fa-phone-alt"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="top-menu">
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
-                    <ul class="top-left-menu float-left">
-                        <li><a href="#">SITEMAP</a></li>
-                        <li><a href="#">PRIVACY</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-9">
-                    <ul class="top-login">
-                        <li><a href="#">LOGIN</a></li>
-                    </ul>
-                    <ul class="top-contact-boxs">
-                        <li><i class="fa fa-user"></i> Call Us: <a href="#">01758963665</a></li>
-                        <li><i class="fa fa-user"></i> WhatsApp: <a href="#">01758963665</a></li>
-                        <li><i class="fa fa-user"></i> Email: <a href="#">01758963665</a></li>
-                    </ul>
+                <div class="col-md-12">
+                    <div class="float-right">
+                        <ul class="contact-items">
+                            <li>
+                                <a href="#">Contact</a>
+                                <ul class="items">
+                                    <li><a href="tel: +8801761740478">
+                                        <div class="contact-icon">
+                                            <i class="fa fa-phone-alt"></i>
+                                        </div>
+                                        <div class="contact-info">
+                                            <p class="contact-title">CALL US</p>
+                                            <p class="contact-number">+88 017 6174 0478</p>
+                                        </div>
+                                    </a></li>
+                                    <li><a href="https://wa.me/8801761740478">
+                                        <div class="contact-icon" style="color: #25D366;">
+                                            <i class="fab fa-whatsapp"></i>
+                                        </div>
+                                        <div class="contact-info">
+                                            <p class="contact-title">WHATSAPP</p>
+                                            <p class="contact-number">+88 017 6174 0478</p>
+                                        </div>
+                                    </a></li>
+                                    <li><a href="mailto: support@dml.com.bd">
+                                        <div class="contact-icon">
+                                            <i class="fa fa-envelope"></i>
+                                        </div>
+                                        <div class="contact-info">
+                                            <p class="contact-title">EMAIL</p>
+                                            <p class="contact-number">support@dml.com.bd</p>
+                                        </div>
+                                    </a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="float-right">
+                        <ul class="top-menu-items">
+                            <li><a href="#">Live Tracking</a></li>
+                            <li><a href="#">Login</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
     
     <section class="nav-menu">
         <div class="container">
-            <div class="nav-contact-menu">
-                <ul>
-                    <li><a class="contact-show-btn" href="#">CONTACT</a>
-                        <ul class="drop-down">
-                            <a class="close-menu" href="#"><i class="fa fa-times"></i></a>
-                            <li><a href="tel: +8801761740478">
-                                <div class="contact-icon">
-                                    <i class="fa fa-phone-alt"></i>
-                                </div>
-                                <div class="contact-info">
-                                    <p class="contact-title">CALL US</p>
-                                    <p class="contact-number">+88 017 6174 0478</p>
-                                </div>
-                            </a></li>
-                            <li><a href="https://wa.me/8801761740478">
-                                <div class="contact-icon" style="color: #25D366;">
-                                    <i class="fab fa-whatsapp"></i>
-                                </div>
-                                <div class="contact-info">
-                                    <p class="contact-title">WHATSAPP</p>
-                                    <p class="contact-number">+88 017 6174 0478</p>
-                                </div>
-                            </a></li>
-                            <li><a href="mailto: support@dml.com.bd">
-                                <div class="contact-icon">
-                                    <i class="fa fa-envelope"></i>
-                                </div>
-                                <div class="contact-info">
-                                    <p class="contact-title">EMAIL</p>
-                                    <p class="contact-number">support@dml.com.bd</p>
-                                </div>
-                            </a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
             <div class="row">
                 <div class="col-md-2">
                     <div class="float-md-left d-flex justify-content-center logo-class">
@@ -81,12 +99,6 @@
                     </div>
                 </div>
                 <div class="col-md-10">
-                    <div class="top-menu">
-                        <ul>
-                            <li><a href="#"><span class="fas fa-info"></span> Live Tracking</a></li>
-                            <li><a href="#"><span class="fas fa-user"></span> Login</a></li>
-                        </ul>
-                    </div>
                     <nav id="header_nav" class="">
                         <ul>
                             <li><a href="index.html">HOME</a></li>
@@ -97,13 +109,6 @@
                         </ul>
                     </nav>
                 </div>
-                <!-- <div class="col-md-3">
-                    <div class="sm-nav-right-menu">
-                        <ul>
-                            
-                        </ul>
-                    </div>
-                </div> -->
             </div>
         </div>
     </section>
