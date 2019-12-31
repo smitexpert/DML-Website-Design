@@ -80,6 +80,55 @@ section.mobile-nav .flex-container .mobile-logo img {
     width: 90px;
 }
 
+section.mobile-nav .flex-container .menu-items .items {
+    position: absolute;
+    margin: 0;
+    margin-top: -300px;
+    z-index: 999;
+    padding: 0;
+    list-style: none;
+    right: 15px;
+    transition: all 0.5s ease-in-out;
+    width: 200px;
+    background-color: #ffffff;
+    /* visibility: hidden;
+    opacity: 0; */
+}
+
+section.mobile-nav .flex-container .menu-items .items.show {
+    margin-top: 10px;
+}
+
+section.mobile-nav .flex-container .menu-items .items .contact-icon {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    font-size: 24px;
+    margin-top: 5px;
+}
+
+
+section.mobile-nav .flex-container .menu-items .items .contact-info {
+    margin-left: 30px;
+    font-weight: normal;
+}
+
+section.mobile-nav .flex-container .menu-items .items li a {
+    color: #EA1F29;
+    font-size: 16px;
+}
+
+section.mobile-nav .flex-container .menu-items .items .contact-info .contact-title {
+    margin: 0;
+    padding: 0;
+}
+
+section.mobile-nav .flex-container .menu-items .items .contact-info .contact-number {
+    margin: 0;
+    padding: 0;
+    margin-top: -5px;
+}
+
 section.top-menu {
     background-color: #C70F15;
 }

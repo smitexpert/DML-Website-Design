@@ -39,6 +39,26 @@ $(".mobile-nav-close-btn").click(function(e){
     $("#sm-mobile-nav").removeClass('show');
 })
 
+$("#show-mobile-contact").click(function(e){
+    e.preventDefault();
+    if(!$("#mobile-contact-show").hasClass('show')){
+        $("#mobile-contact-show").addClass('show');
+    }else{
+        $("#mobile-contact-show").removeClass('show');
+    }
+})
+
+$(document).mouseup(function(e) 
+{
+    var container = $("#mobile-contact-show");
+
+    // if the target of the click isn't the container nor a descendant of the container
+    if (!container.is(e.target) && container.has(e.target).length === 0) 
+    {
+        container.removeClass('show');
+    }
+});
+
 // $(".nav-contact-menu ul li").hover(function(){
 //     $(".drop-down").css('display', 'block');
 //     $(".drop-down").addClass('fadeInDown animated');
