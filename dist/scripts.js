@@ -1,5 +1,9 @@
 // $(".sm-responsive-nav").find('ul').append('<li id="sm-nav-collaps"><i class="fas fa-bars"></i></li>');
 
+$(window).on('load', function(){
+    $('body').css('display', 'block');
+});
+
 $("#header_nav").smNavMenu();
 
 $("#tarcking").click(function(){

@@ -6,6 +6,7 @@ html {
 body {
     font-family: 'Abel', sans-serif;
     font-weight: lighter;
+    display: none;
 }
 
 /* 
@@ -496,6 +497,57 @@ section.contact .contact-box-item ul li p.contact-info a {
     color: #EA1F29;
 }
 
+section.blog-area {
+    padding: 80px 0;
+    background-color: #ececec;
+}
+
+section.blog-area .post-box {
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+section.blog-area .post-box .post-header {
+    margin: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+section.blog-area .post-box .post-header .post-time {
+    border-right: 1px solid #474747;
+    text-align: center;
+    margin-right: 15px;
+    padding-right: 15px;
+}
+
+section.blog-area .post-box .post-header .post-time p {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #474747;
+}
+
+section.blog-area .post-box .post-header .post-time h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 28px;;
+    color: #474747;
+}
+
+section.blog-area .post-box .post-header .post-title h2 a {
+    color: #474747;
+}
+
+section.blog-area .post-box .post-header .post-title h2 a:hover {
+    text-decoration: none;
+}
+
+section.blog-area .post-box .post-thumb img {
+    width: 100%;
+    height: auto;
+}
+
 footer .footer-area {
     background-color: #222;
     padding: 60px 0;
@@ -714,6 +766,22 @@ footer .footer-bar p a:hover {
 
     section.fast-delivery {
         background-position-x: 70px;
+    }
+
+    section.blog-area .post-box .post-header {
+        display: block;
+    }
+
+    section.blog-area .post-box .post-header .post-time {
+        border-bottom: 1px solid #afafaf;
+        border-right: none;
+        text-align: center;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+
+    section.blog-area .post-box .post-header .post-title {
+        text-align: center;
     }
 
     section .section-header-text h1 {
